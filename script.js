@@ -19,7 +19,7 @@ function generatePassword() {
   
   // checks that newly converted string to integer is a integer, if not return to prompt
   if (isNaN (pwLength)){
-    alert("Please choose a number")
+    alert("Please press the Generate password button")
     return "Please pick a number between 8 and 128 characters"
   }
 
